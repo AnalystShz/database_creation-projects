@@ -1,4 +1,4 @@
-🏥 NHS Patient Records Database
+## 🏥 NHS Patient Records Database
 
 A MySQL SQL Project Demonstrating Real Healthcare Data Workflows
 
@@ -7,50 +7,32 @@ A MySQL SQL Project Demonstrating Real Healthcare Data Workflows
 The NHS Patient Records Database is a simulated healthcare dataset designed to model how patient information, GP practices, and appointments are stored and analysed within an NHS-style system.
 
 This project demonstrates practical skills in:
-
 SQL database design
-
 Data retrieval and filtering
-
 Joining relational tables
-
 Aggregation & basic analytics
-
 Visualisation using DBeaver
 
-🌟 Key Features
+## 🌟 Key Features
 
 Relational database with Patients, GP Practices, and Appointments
-
 Queries demonstrating:
-
 Filtering (WHERE)
-
 Sorting (ORDER BY)
-
 Table joins (INNER JOIN)
-
 Aggregations (COUNT, GROUP BY)
-
 Visual screenshots of database structure and results
 
 🛠️ 1️⃣ Database Design & Management
 ✔️ What I Built
 
 3 relational tables:
-
 Patients
-
 GP_Practices
-
 Appointments
-
 Added Primary Keys and Foreign Keys
-
 Ensured 1-to-many relationship:
-
 One GP Practice → many Patients
-
 One Patient → many Appointments
 
 📸 Visuals
@@ -76,6 +58,8 @@ WHERE Age > 40
 ORDER BY Age DESC;
 
 <img width="526" height="293" alt="select" src="https://github.com/user-attachments/assets/d79ab430-a67a-47fb-a679-396fc475a1c2" />
+
+
 🔹 Query 2 — Female patients in postcode LE5
 
 Retrieves female patients located in LE5, sorted by IMD score.
