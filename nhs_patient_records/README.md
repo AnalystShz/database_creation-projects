@@ -47,5 +47,8 @@ Defined relationships between patients, GP practices, and appointments
 - Shows demographic + GP name in one query
 <img width="577" height="479" alt="joins1" src="https://github.com/user-attachments/assets/ac515296-fde6-4252-bec7-b5b6a814f91e" />
 
+2: Show patients who attended appointments with date and GP
+
+<img width="665" height="575" alt="joins2" src="https://github.com/user-attachments/assets/eac4c64c-8123-4be7-8a93-791b21e5583f" />
 
 
