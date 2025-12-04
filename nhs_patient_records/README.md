@@ -25,8 +25,10 @@ Defined relationships between patients, GP practices, and appointments
 - SELECT statements with filtering (WHERE) and sorting (ORDER BY)
 - 1: Patients older than 40, sorted by age descending
 <img width="526" height="293" alt="select" src="https://github.com/user-attachments/assets/d79ab430-a67a-47fb-a679-396fc475a1c2" />
-WHERE Age > 40 → only patients older than 40
-ORDER BY Age DESC → highest age first
+-- WHERE Age > 40 → only patients older than 40
+-- ORDER BY Age DESC → highest age first
+
+  
 
 2: Female patients in postcode area 'LE5', sorted by IMD score ascending
 <img width="693" height="160" alt="SELECT2" src="https://github.com/user-attachments/assets/e03b12c6-97c8-40ac-a1ec-6ae649092aff" />
