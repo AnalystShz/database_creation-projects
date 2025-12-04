@@ -59,7 +59,15 @@ ORDER BY Age DESC;
 <img width="526" height="293" alt="select" src="https://github.com/user-attachments/assets/d79ab430-a67a-47fb-a679-396fc475a1c2" /> 
 
 
-2: Female patients in postcode area 'LE5', sorted by IMD score ascending 
+🔹 Query 2 — Female patients in postcode LE5
+Retrieves female patients located in LE5, sorted by IMD score.
+
+SELECT *
+FROM Patients
+WHERE Gender = 'Female'
+  AND Postcode LIKE 'LE5%'
+ORDER BY IMD_Score ASC;
+
 
 <img width="693" height="160" alt="SELECT2" src="https://github.com/user-attachments/assets/e03b12c6-97c8-40ac-a1ec-6ae649092aff" /> 
 
