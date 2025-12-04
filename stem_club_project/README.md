@@ -70,7 +70,7 @@ Filtering / WHERE + ORDER BY
 Views (SELECT * FROM top_scores;)
 Stored procedures (CALL get_child_scores(1);)
 
-##Tips
+## Tips
 
 Make sure table and column names match your queries.
 Running queries multiple times is safe — table creation scripts are not needed since tables already exist.
